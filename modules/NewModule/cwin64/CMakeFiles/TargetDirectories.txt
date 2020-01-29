@@ -1,0 +1,3 @@
+C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/cwin64/CMakeFiles/NewModule.dir
+C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/cwin64/CMakeFiles/ALL_BUILD.dir
+C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/cwin64/CMakeFiles/ZERO_CHECK.dir
