@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\butch\Desktop\OU Schoolwork\CS4900\main\modules\NewModule\src\GLViewNewModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\butch\Desktop\OU Schoolwork\CS4900\main\modules\NewModule\src\NewModuleWayPoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\butch\Desktop\OU Schoolwork\CS4900\main\modules\NewModule\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\butch\Desktop\OU Schoolwork\CS4900\main\modules\NewModule\src\GLViewNewModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\butch\Desktop\OU Schoolwork\CS4900\main\modules\NewModule\src\NewModuleWayPoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\butch\Desktop\OU Schoolwork\CS4900\main\modules\NewModule\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BB24328B-FB48-333C-8B9B-A9A6F7C1773F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{91885AFD-6E89-3563-9987-8EA124FFCB64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
