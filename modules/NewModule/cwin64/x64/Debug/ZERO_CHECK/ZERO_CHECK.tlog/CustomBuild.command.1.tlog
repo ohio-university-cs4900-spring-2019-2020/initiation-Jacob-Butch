@@ -1,0 +1,10 @@
+^C:\USERS\BUTCH\DESKTOP\OU SCHOOLWORK\CS4900\MAIN\MODULES\NEWMODULE\CWIN64\CMAKEFILES\ED417ECCAFD80EDE0E1339F6FCA83FA7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src" "-BC:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/cwin64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/cwin64/NewModule.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

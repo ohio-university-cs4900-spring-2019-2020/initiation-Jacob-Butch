@@ -1,0 +1,10 @@
+^C:\USERS\BUTCH\DESKTOP\OU SCHOOLWORK\CS4900\MAIN\MODULES\NEWMODULE\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src" "-BC:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/cwin64" --check-stamp-file "C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/cwin64/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
